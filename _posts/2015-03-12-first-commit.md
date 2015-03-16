@@ -8,11 +8,17 @@ tags:
   - blogging
   - jekyll
 imagefeature: hunters-point.jpg
+imagecredit: <a xmlns:cc='http://creativecommons.org/ns#' rel='cc:attributionURL' property='cc:attributionName' href='https://www.flickr.com/people/124329303@N08/' target='_blank'>dting44</a>
+imagelicense: <a rel='license' href='http://creativecommons.org/licenses/by/2.0/' target='_blank'><img src='http://i.creativecommons.org/l/by/2.0/80x15.png' alt='Creative Commons Creative Commons Attribution 2.0 Generic License' title='Creative Commons Creative Commons Attribution 2.0 Generic License' border='0'></a>
 comments: false
 mathjax: null
 featured: false
 published: true
 ---
+
+> When you're curious,<br>
+> you find lots of interesting things to do.
+> <small><cite title="Walt Disney">Walt Disney</cite></small>
 
 This blog is about things I find interesting. Hopefully, someone out there finds them interesting as well.
 

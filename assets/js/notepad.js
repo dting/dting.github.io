@@ -9,10 +9,12 @@ var notepad = (function ($) {
         bgCheckClass = '.bg-check',
         postBgImages = '.bg-img img',
         postCoverImg = '.notepad-post-header .bg-img',
+        tagsDiv = '.tags-loop',
+        allAnimationTypes = ['simple', 'sliced', 'push'],
 
-    // post animations on homepage
+    // post animations on homepage 
     indexPostAnimate = function () {
-        if ($(indexPostClass).length) {
+        if ($('.animated-post').length && $('.post-loop-animations').length) {
             $(indexPostClass).each(function () {
             var postPos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop(),
@@ -47,10 +49,30 @@ var notepad = (function ($) {
     },
 
     postHeaderCoverImg = function () {
-        var coverImage = $('[alt=cover-image]');
+        var coverImage = $('.notepad-post-content [alt=cover-image]');
         if (coverImage.length) {
             $(postCoverImg).append('<img src="' + coverImage.attr('src') + '">');
             coverImage.remove();
+            $('.post-template .intro-effect-fadeout').find('.notepad-post-menu-header').addClass('transparent');
+        }
+    },
+
+    // for now only this nasty hacks can do this
+    // hiding animation types tags used to switching posts covers
+    removeSimpleTagHelper = function () {
+        if ($(tagsDiv).length) {
+            $(tagsDiv).each(function () {
+                var tagLink = $(this).find('.tag-link > a'),
+                    tagPrefix = $(this).find('.tag-prefix');
+                tagLink.each(function () {
+                    if (allAnimationTypes.indexOf($(this).text()) !== -1) {
+                        $(this).closest('.tag-link').remove();
+                    }
+                });
+                if(tagPrefix.next().length === 0) {
+                    tagPrefix.remove();
+                };
+            });
         }
     },
 
@@ -64,6 +86,8 @@ var notepad = (function ($) {
         mobileMenu();
         headerTitlesBackgroundCheck();
         $('p:has(> img)').addClass('with-image');
+        removeSimpleTagHelper();
+        $(document).foundation();
     };
 
     return {

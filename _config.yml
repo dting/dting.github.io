@@ -3,11 +3,10 @@ description:      "++ &lt;code&gt; blog"
 logo:             logo.png
 disqus_shortname: sendingtin
 share:            true
-url:              'http://dting.github.io'
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-#url:        	  http://hmfaysal.github.io
+url:              'http://dting.github.io'
 
 # Owner/author information
 owner:
@@ -36,7 +35,7 @@ links:
   - title: Tags
     url: /tags
   - title: About
-    url: /dting
+    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
@@ -67,7 +66,7 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://dting.github.io/'
   relativeLinks: 'http://dting.github.io/links.jsonp'
-  media: 'images'
+  media: 'images/post'
   metadata:
     _posts:
       - name: "published"
@@ -90,11 +89,6 @@ prose:
           element: "text"
           label: "Description"
           placeholder: "Enter Post Description"
-      - name: "headline"
-        field:
-          element: "text"
-          label: "beadline"
-          placeholder: "Enter Post Headline"
       - name: "modified"
         field:
           element: "text"
@@ -109,8 +103,8 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Code"
-              value: code
+            - name: "Coding"
+              value: coding
           alterable: true
       - name: "tags"
         field:
@@ -122,6 +116,29 @@ prose:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
+      - name: "covereffect"
+        field:
+          element: "select"
+          label: "Select Cover Effect"
+          placeholder: "Choose Type"
+          value:
+          options:
+            - name: "None"
+              value:
+            - name: "slice"
+              value: slice
+            - name: "push"
+              value: push
+      - name: "location"
+        field:
+          element: "text"
+          label: "Location"
+          placeholder: "Some Place"
+      - name: "locationgps"
+        field:
+          element: "text"
+          label: "Location GPS point"
+          placeholder: "long, lat"
       - name: "mathjax"
         field:
           element: "checkbox"
@@ -137,7 +154,29 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
-
+      - name: "chart"
+        field:
+          element: "checkbox"
+          label: "Chart?"
+          value: false
+      - name: "charttype"
+        field:
+          element: "select"
+          label: "Select Chart Type"
+          placeholder: "Choose Type"
+          value:
+          options:
+            - name: "None"
+              value:
+            - name: "pie"
+              value: pie
+            - name: "serial"
+              value: serial
+      - name: "jquery"
+        field:
+          element: "checkbox"
+          label: "Require JQuery?"
+          value: false
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Thumbs.db"]
