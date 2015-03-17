@@ -191,11 +191,9 @@ html, body, .notepad-post-container, .notepad-post-header {
     .notepad-post-content > div:not(.notepad-post-title) code {
       color: #6699cc; }
     .post-template .notepad-post-content > div:not(.notepad-post-title) ul:not(.pricing-table) {
-      padding-left: 1.25rem;
-      font-size: 1.125rem; }
+      padding-left: 1.25rem; }
     .post-template .notepad-post-content > div:not(.notepad-post-title) ol:not(.pricing-table) {
-      padding-left: 1.5625rem;
-      font-size: 1.125rem; }
+      padding-left: 1.5625rem; }
     .post-template .notepad-post-content > div:not(.notepad-post-title) h1, .post-template .notepad-post-content > div:not(.notepad-post-title) h2, .post-template .notepad-post-content > div:not(.notepad-post-title) h3, .post-template .notepad-post-content > div:not(.notepad-post-title) h4, .post-template .notepad-post-content > div:not(.notepad-post-title) h5, .post-template .notepad-post-content > div:not(.notepad-post-title) h6 {
       font-weight: bold; }
     .post-template .notepad-post-content > div:not(.notepad-post-title) h1, .post-template .notepad-post-content > div:not(.notepad-post-title) h2, .post-template .notepad-post-content > div:not(.notepad-post-title) h3, .post-template .notepad-post-content > div:not(.notepad-post-title) h4, .post-template .notepad-post-content > div:not(.notepad-post-title) h5, .post-template .notepad-post-content > div:not(.notepad-post-title) h6, .post-template .notepad-post-content > div:not(.notepad-post-title) ul, .post-template .notepad-post-content > div:not(.notepad-post-title) ol, .post-template .notepad-post-content > div:not(.notepad-post-title) blockquote, .post-template .notepad-post-content > div:not(.notepad-post-title) pre, .post-template .notepad-post-content > div:not(.notepad-post-title) hr {
@@ -206,15 +204,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template .notepad-post-content > div:not(.notepad-post-title) p {
       margin: 0 auto;
       padding-bottom: 1.5em;
-      max-width: 43.75rem;
-      font-size: 1.125rem; }
-      .post-template .notepad-post-content > div:not(.notepad-post-title) p:nth-of-type(1) {
-        font-size: 1rem; }
-      @media only screen and (min-width: 40.063em) {
-        .post-template .notepad-post-content > div:not(.notepad-post-title) p {
-          font-size: 1rem; }
-          .post-template .notepad-post-content > div:not(.notepad-post-title) p:nth-of-type(1) {
-            font-size: 1rem; } }
+      max-width: 43.75rem; }
       .post-template .notepad-post-content > div:not(.notepad-post-title) p.with-image {
         text-align: center;
         padding-top: 3.125rem;
@@ -376,7 +366,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     @media only screen and (min-width: 90em) {
       .notepad-page-title h1,
       .notepad-post-title-simple h1 {
-        font-size: 5.3125rem;
+        font-size: 3.3125rem;
         padding-top: 8.125rem;
         padding-bottom: 8.125rem; } }
   .notepad-page-title .notepad-post-meta-simple,

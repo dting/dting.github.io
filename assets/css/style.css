@@ -213,12 +213,6 @@ header, main, footer {
     .notepad-site-head .notepad-site-head-content h2 {
       font-size: 5rem;
       padding-bottom: 10.3125rem; } }
-  @media only screen and (min-width: 100em) {
-    .notepad-site-head .notepad-site-head-content h1 {
-      padding-top: 12.5rem; }
-    .notepad-site-head .notepad-site-head-content h2 {
-      font-size: 6.25rem;
-      padding-bottom: 12.5rem; } }
 
 .post-loop-animations .animated-post {
   visibility: hidden; }
@@ -271,16 +265,15 @@ header, main, footer {
     @media only screen and (min-width: 40.063em) {
       .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
         text-align: left;
-        font-size: 2.125rem;
-        margin-bottom: 0.9375rem; } }
+        font-size: 2.125rem; } }
     .notepad-content .notepad-index-post .notepad-post-excerpt {
       color: #000;
-      font-size: 1.375rem;
+      font-size: 1.1rem;
       margin-top: 0.625rem;
       text-align: center; }
       .notepad-content .notepad-index-post .notepad-post-excerpt p {
         margin: 0;
-        font-size: 1.375rem; }
+        font-size: 1.1rem; }
     @media only screen and (min-width: 40.063em) {
       .notepad-content .notepad-index-post .notepad-post-excerpt {
         text-align: left; } }
