@@ -36,6 +36,8 @@ links:
     url: /tags
   - title: About
     url: /about
+  - title: Euler
+    url: /project-euler
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
@@ -177,6 +179,11 @@ prose:
           element: "checkbox"
           label: "Require JQuery?"
           value: false
+
+collections:
+  euler:
+    output: true
+    permalink: /euler/:path/
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Thumbs.db"]
