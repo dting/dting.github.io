@@ -147,6 +147,7 @@
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    background: #d0d0d0;
 }
 
 .tag-box a span {
@@ -169,7 +170,8 @@
       color: black;
       border: 0.0625rem solid black;
       border-radius: 0.125rem;
-      margin-bottom: 0.3125rem; }
+      margin-bottom: 0.3125rem;
+      background: #d0d0d0; }
       .notepad-content .notepad-index-post .notepad-index-post-tags a:hover {
         color: #e51843;
         border: 0.0625rem solid #e51843; }

@@ -7,7 +7,7 @@ tags: [euler, spoiler]
 
 Here are my notes on solving some project euler problems. Contains spoilers!
 
-## Solved
+## <span style="color: #5ab738;">Solved</span>
 
 <ul class="post-list">
 {% for post in site.euler %}
