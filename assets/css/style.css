@@ -11,7 +11,8 @@ body {
   font-family: "Open Sans", sans-serif;
   height: auto;
   min-height: 100%;
-  line-height: 1; }
+  line-height: 1;
+  background: #e0e0e0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
@@ -218,7 +219,7 @@ header, main, footer {
   visibility: hidden; }
 
 .notepad-content {
-  background: #ffffff; }
+  background: #e0e0e0; }
   .notepad-content .notepad-index-post {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
