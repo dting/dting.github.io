@@ -5,7 +5,27 @@ title: Project Euler
 tags: [euler, spoiler]
 ---
 
-Here are my notes on solving some project euler problems. Contains spoilers!
+Here are my notes on solving some project euler problems. Contains **spoilers**!
+
+## <span style="color: #5ab738;">Helper functions<span>
+{% highlight Javascript %}
+/**
+ * Decorator function for timing one or more calls of a function.
+ *
+ * @param {Function} f Function to be timed and repeated.
+ * @param {Number} [times=1] Number of times to call f.
+ * @returns {*} result Last returned result of calling f.
+ */
+function timer(f, times) {
+  var t = times || 1, args = [].slice.call(arguments, 2), result;
+  console.time(f.name + " x " + (times || 1));
+  while (t--) {
+    result = f.apply(null, args);
+  }
+  console.timeEnd(f.name + " x " + (times || 1));
+  return result;
+}
+{% endhighlight %}
 
 ## <span style="color: #5ab738;">Solved</span>
 
