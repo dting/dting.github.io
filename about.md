@@ -12,3 +12,5 @@ tags: [Dennis, Ting, dting]
 > [![stackoverflow](http://stackoverflow.com/users/flair/635411.png)](http://stackoverflow.com/users/635411/dting)
 >
 > [![euler](https://projecteuler.net/profile/dting.png)](https://projecteuler.net/)
+>
+> [![euler](https://projecteuler.net/profile/dtingJavascript.png)](https://projecteuler.net/)
