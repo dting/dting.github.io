@@ -7,12 +7,53 @@
    * @returns {*} result Last returned result of calling f.
    */
   function timer(f, times) {
-    var t = times || 1, args = [].slice.call(arguments, 2), result;
-    console.time(f.name + " x " + (times || 1));
+    var times = times || 1,
+        t = times,
+        args = [].slice.call(arguments, 2), result;
+    console.time(f.name + " x " + times);
     while (t--) {
       result = f.apply(null, args);
     }
-    console.timeEnd(f.name + " x " + (times || 1));
+    console.timeEnd(f.name + " x " + times);
     return result;
   }
+</script>
+
+<script>
+  var Primes = (function() {
+    // Returns if n is prime using trial division for previously found primes.
+    // Only check up to floor(sqrt(n)).
+    function isPrime(n, primes) {
+      var pi = 1, // Skip checking if divisible by 2.
+          prime = primes[pi],
+          limit = Math.floor(Math.sqrt(n));
+      while (prime <= limit) {
+        if (!(n % prime)) return false;
+        prime = primes[++pi];
+      }
+      return true;
+    }
+
+    function primesTo(n) {
+      var primes, i = 1;
+      if (n < 2) return [];
+      if (n === 2) return [2];
+      if (n === 3) return [2, 3];
+      primes = [2, 3];
+      while (true) {
+        var candidate = 6 * i - 1;
+        if (candidate > n) break;
+        if (isPrime(candidate, primes)) primes.push(candidate);
+        candidate += 2;
+        if (candidate > n) break;
+        if (isPrime(candidate, primes)) primes.push(candidate);
+        i++;
+      }
+      return primes
+    }
+
+    return {
+      primesTo : primesTo
+    }
+  })();
 </script>

@@ -17,12 +17,14 @@ Here are my notes on solving some project euler problems. Contains **spoilers**!
  * @returns {*} result Last returned result of calling f.
  */
 function timer(f, times) {
-  var t = times || 1, args = [].slice.call(arguments, 2), result;
-  console.time(f.name + " x " + (times || 1));
+  var times = times || 1,
+      t = times,
+      args = [].slice.call(arguments, 2), result;
+  console.time(f.name + " x " + times);
   while (t--) {
     result = f.apply(null, args);
   }
-  console.timeEnd(f.name + " x " + (times || 1));
+  console.timeEnd(f.name + " x " + times);
   return result;
 }
 {% endhighlight %}
