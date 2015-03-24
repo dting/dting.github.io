@@ -14,3 +14,5 @@ tags: [Dennis, Ting, dting]
 > [![euler](https://projecteuler.net/profile/dting.png)](https://projecteuler.net/)
 >
 > [![euler](https://projecteuler.net/profile/dtingJavascript.png)](https://projecteuler.net/)
+>
+> [`code abbey`](http://www.codeabbey.com/index/user_profile/dting)
