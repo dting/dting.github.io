@@ -68,22 +68,7 @@
       -webkit-transition-delay: .6s;
       transition-delay: .6s;
       margin: 0 auto;
-      margin-top: -30%; }
-      @media only screen and (min-width: 30em) {
-        .post-template .intro-effect-sliced.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -20%; } }
-      @media only screen and (min-width: 48em) {
-        .post-template .intro-effect-sliced.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -15%; } }
-      @media only screen and (min-width: 72em) {
-        .post-template .intro-effect-sliced.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -10%; } }
-      @media only screen and (min-width: 48em) and (min-height: 54em) {
-        .post-template .intro-effect-sliced.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -15%; } }
-      @media only screen and (min-width: 90em) {
-        .post-template .intro-effect-sliced.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -12%; } }
+      margin-top: 0%; }
   .post-template .intro-effect-sliced:not(.notrans) .bg-img, .post-template .intro-effect-sliced:not(.notrans) .notepad-post-title {
     -webkit-transition-property: -webkit-transform;
     transition-property: transform;
@@ -174,22 +159,7 @@
     -webkit-transition-delay: .3s;
     transition-delay: .3s;
     margin: 0 auto;
-    margin-top: -40%; }
-    @media only screen and (min-width: 30em) {
-      .post-template .intro-effect-fadeout.modify + .notepad-post-content > div:not(.notepad-post-title) {
-        margin-top: -20%; } }
-    @media only screen and (min-width: 48em) {
-      .post-template .intro-effect-fadeout.modify + .notepad-post-content > div:not(.notepad-post-title) {
-        margin-top: -15%; } }
-    @media only screen and (min-width: 72em) {
-      .post-template .intro-effect-fadeout.modify + .notepad-post-content > div:not(.notepad-post-title) {
-        margin-top: -10%; } }
-    @media only screen and (min-width: 48em) and (min-height: 54em) {
-      .post-template .intro-effect-fadeout.modify + .notepad-post-content > div:not(.notepad-post-title) {
-        margin-top: -15%; } }
-    @media only screen and (min-width: 90em) {
-      .post-template .intro-effect-fadeout.modify + .notepad-post-content > div:not(.notepad-post-title) {
-        margin-top: -12%; } }
+    margin-top: 0%; }
 .post-template .intro-effect-fadeout:not(.notrans) .bg-img {
   -webkit-transition-property: -webkit-transform;
   transition-property: transform;
@@ -268,22 +238,7 @@
       -webkit-transition-delay: 1.3s;
       transition-delay: 1.3s;
       margin: 0 auto;
-      margin-top: -30%; }
-      @media only screen and (min-width: 30em) {
-        .post-template .intro-effect-push.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -20%; } }
-      @media only screen and (min-width: 48em) {
-        .post-template .intro-effect-push.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -15%; } }
-      @media only screen and (min-width: 72em) {
-        .post-template .intro-effect-push.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -10%; } }
-      @media only screen and (min-width: 48em) and (min-height: 54em) {
-        .post-template .intro-effect-push.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -15%; } }
-      @media only screen and (min-width: 90em) {
-        .post-template .intro-effect-push.modify + .notepad-post-content > div:not(.notepad-post-title) {
-          margin-top: -12%; } }
+      margin-top: 0%; }
   .post-template .intro-effect-push:not(.notrans) .notepad-post-header {
     -webkit-transition-property: opacity, -webkit-transform;
     transition-property: opacity, transform;
