@@ -12,7 +12,7 @@ body {
   height: auto;
   min-height: 100%;
   line-height: 1;
-  background: #f1efee; }
+  background: #e0e0e9; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
@@ -137,7 +137,7 @@ header, main, footer {
               border-bottom: 0.1875rem solid #6699cc; } }
 
 .notepad-site-head .notepad-site-head-menu {
-  background: #f1efee; }
+  background: #e0e0e9; }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
     max-height: 3rem; }
@@ -219,7 +219,7 @@ header, main, footer {
   visibility: hidden; }
 
 .notepad-content {
-  background: #f1efee; }
+  background: #e0e0e9; }
   .notepad-content .notepad-index-post {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
