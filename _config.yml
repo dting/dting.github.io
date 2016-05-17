@@ -6,7 +6,7 @@ share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:              'http://dting.github.io'
+url:              'https://dting.github.io'
 
 # Owner/author information
 owner:
@@ -66,8 +66,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://dting.github.io/'
-  relativeLinks: 'http://dting.github.io/links.jsonp'
+  siteurl: 'https://dting.github.io/'
+  relativeLinks: 'https://dting.github.io/links.jsonp'
   media: 'images/post'
   metadata:
     _posts:
